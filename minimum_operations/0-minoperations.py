@@ -14,7 +14,8 @@ def minOperations(n):
         n (int): input value for the task
 
     Return:
-        int: the minimum number of operations required to achieve exactly n 'H' characters.
+        int: the minimum number of operations required to achieve exactly n
+        'H' characters.
         If it is impossible to achieve, return 0.
     """
     if n < 2:
@@ -35,4 +36,3 @@ def minOperations(n):
         operations += n
 
     return operations
-
