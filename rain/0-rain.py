@@ -1,11 +1,12 @@
 #!/usr/bin/python3
-
-def rain(walls):
-    """
+"""
     For a given a list of non-negative integers representing
     the heights of walls with unit width 1 calculate how many
     square units of water will be retained after it rains.
+"""
 
+def rain(walls):
+    """
     Args:
         walls: is a list of non-negative integers.
 
