@@ -5,6 +5,7 @@
     square units of water will be retained after it rains.
 """
 
+
 def rain(walls):
     """
     Args:
